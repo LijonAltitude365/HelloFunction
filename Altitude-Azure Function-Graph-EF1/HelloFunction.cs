@@ -16,19 +16,19 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Altitude_Azure_Function_Graph_EF1
 {
-    public class HellOFunction
+    public class HelloFunction
     {
         private readonly ApplicationSettings _appSettings;
         private readonly IHelloWorld _helloContext;
 
-        public HellOFunction(IOptions<ApplicationSettings> appSettings, IHelloWorld helloContext)
+        public HelloFunction(IOptions<ApplicationSettings> appSettings, IHelloWorld helloContext)
         {
             _appSettings = appSettings.Value;
             _helloContext = helloContext;
         }
 
-        [FunctionName("ManualAdminTest")]
-        public async Task<IActionResult> RunManualTest([HttpTrigger(AuthorizationLevel.Anonymous, methods: "get", Route = null)]HttpRequest req, ILogger log)
+        [FunctionName("HelloFunction")]
+        public async Task<IActionResult> SayHello([HttpTrigger(AuthorizationLevel.Anonymous, methods: "get", Route = null)]HttpRequest req, ILogger log)
         {
             log.LogWarning($"Function initialized successfully at {DateTime.UtcNow}");
 
