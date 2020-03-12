@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altitude-Azure Function-Graph-EF1", "Altitude-Azure Function-Graph-EF1\Altitude-Azure Function-Graph-EF1.csproj", "{A02601EF-CE86-4779-A70A-3D877C017B93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A02601EF-CE86-4779-A70A-3D877C017B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02601EF-CE86-4779-A70A-3D877C017B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02601EF-CE86-4779-A70A-3D877C017B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02601EF-CE86-4779-A70A-3D877C017B93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D800219F-838C-481B-852C-6DD4A406EC0A}
+	EndGlobalSection
+EndGlobal
